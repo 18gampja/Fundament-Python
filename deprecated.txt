@@ -1,0 +1,6 @@
+# Check the length of arguments respective to the command name. 
+def check_args(reqNum, command):
+    if reqNum != len(command):
+        return False
+    else:
+        return True
